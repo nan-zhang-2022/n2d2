@@ -1,6 +1,15 @@
 # Code package
 
-This directory contains the code and reproducibility scripts accompanying the paper.
+This directory contains the code and reproducibility scripts for:
+
+> **Why Decoding Sharpens Without Resolving: Lock-in and Confusion in Autoregressive Reasoning**  
+> Nan Zhang, Heng Xu  
+> *Advances in Neural Information Processing Systems (NeurIPS), 2026*  
+> [NeurIPS paper page](https://neurips.cc/virtual/2026/poster/150729)
+
+## Abstract
+
+Autoregressive reasoning traces often sharpen as they unfold — entropy falls and token probabilities concentrate — suggesting decoding is resolving uncertainty. Yet the same pattern persists after clear reasoning errors. We analyze decoding through the conditional posterior it induces over *branches* — equivalence classes of continuations under any chosen notion of "resolution" — and show that a mismatch between token selection and branch resolution produces two regimes: *lock-in*, where top tokens remain branch-evidential and reinforce commitment, and *confusion*, where branch-specific residuals self-average and top tokens become weakly diagnostic. Two observable consequences follow: entropy may fall while unresolved support stays elevated, and greedy token selection has opposite informational effects across regimes. We confirm these theoretical predictions across multiple open-weight models and reasoning benchmarks.
 
 ## Directory structure
 
